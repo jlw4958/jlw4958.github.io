@@ -1,0 +1,33 @@
+/* general styles */
+
+body {
+    background: #ee588a
+    /* background: linear-gradient(180deg, rgba(238,88,138,1) 39%, rgba(241,228,232,1) 91%); */
+}
+
+#projects, #about, #waiut, #contact {
+    background-color: #e2dcde;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 2em;
+
+}
+
+/* navbar */
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+
+}
+#navbar li {
+    display: inline;
+    float: left;
+}
+
+#navbar a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}

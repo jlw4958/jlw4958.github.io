@@ -9,6 +9,7 @@ Creator: Jabrecia Washington
 - What Am I Up To?
     - unfinished projects, small things I'm practicing with
 - About
+- Contact
 
 *******Navbar:*******
 - Link to each section <a href="#projects">
@@ -33,13 +34,41 @@ Creator: Jabrecia Washington
 - Formatted similarly to projects
 - Less detailed, focus is on showcasing constant learning
 
+Featured:
+- Graphics Engine
+- Unreal Learning
+
 - WAIUT Template:
     - What am I doing?
     - Why am I doing it?
     - What's next? (if anything)
+
+*******About:*******
+- Name
+- Intro
+    - who I am
+    - what I do
+    - career goals
+    - interests
+- Involvements
+    - IGM Ambassadors
+    - ColorStack
+    - Rewriting the Code
+    - Black In Gaming
 
 *******Contact:*******
 - email
 - linkedin
 - github
 - and more to come ;)
+
+
+*******Styles:*******
+- solid bg color
+- each section is like a "bubble" (rounded suqare)
+
+references:
+- https://www.w3schools.com/css/css_navbar_horizontal.asp
+- https://www.w3schools.com/css/css3_borders.asp
+- https://cssgradient.io/
+- https://fontawesome.com/search?q=email&o=r&m=free&f=classic
