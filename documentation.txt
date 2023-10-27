@@ -67,8 +67,17 @@ Featured:
 - solid bg color
 - each section is like a "bubble" (rounded suqare)
 
+*******"Demo Reel" Content:*******
+- gameplay clips
+- process clips
+- images/screenshots
+
 references:
 - https://www.w3schools.com/css/css_navbar_horizontal.asp
 - https://www.w3schools.com/css/css3_borders.asp
 - https://cssgradient.io/
 - https://fontawesome.com/search?q=email&o=r&m=free&f=classic
+
+fonts:
+- Headers: https://fonts.google.com/specimen/Red+Hat+Display?category=Sans+Serif,Display&vfonly=true&classification=Display&stroke=Sans+Serif
+- Paragraphs: https://fonts.google.com/specimen/Raleway?category=Sans+Serif,Display&vfonly=true&stroke=Sans+Serif

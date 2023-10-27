@@ -5,29 +5,68 @@ body {
     /* background: linear-gradient(180deg, rgba(238,88,138,1) 39%, rgba(241,228,232,1) 91%); */
 }
 
+h1, h2 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p, #navbar a {
+    font-family: 'Raleway', sans-serif;
+}
+
 #projects, #about, #waiut, #contact {
     background-color: #e2dcde;
     border-radius: 25px;
     padding: 20px;
     margin: 2em;
-
 }
 
 /* navbar */
+#navbar {
+    width: auto;
+    border-radius: 25px;
+}
 #navbar ul{
+    /* list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd; */
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #dddddd;
+    overflow: hidden;
 
 }
-#navbar li {
-    display: inline;
+#navbar li{
+    /* padding: 1em; */
     float: left;
 }
+#navbar li a:hover {
+    background-color: #111;
+}
+#navbar li a {
+    /* display: inline;
+    float: left; */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#navbar h1{
+    padding-left: 3em;
+    font-size: 1.5rem;
+    float: top
+}
 
+/* #navbar li h1 {
+    display: inline;
+    float: right;
+    top: -1em;
+} */
+/* 
 #navbar a {
     display: block;
     padding: 8px;
     background-color: #dddddd;
-}
+} */
