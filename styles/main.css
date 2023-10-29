@@ -9,7 +9,7 @@ h1, h2 {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-p, #navbar a {
+p, a, ul {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,6 +18,10 @@ p, #navbar a {
     border-radius: 25px;
     padding: 20px;
     margin: 2em;
+}
+
+.shadow {
+    box-shadow: 5px 5px 10px 2px rgba(103, 18, 46, 0.2);
 }
 
 /* navbar */
@@ -55,15 +59,23 @@ p, #navbar a {
     padding-right: 1.5em;
 }
 
+/* intro */
 #intro{
     margin-top: 7em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1em;
 }
+#intro h1{
+    font-size: xx-large;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
 #intro p{
     grid-column: 1;
-    text-align: justify;
+    text-align: left;
+    padding-right: 1em;
+    font-size: x-large;
 }
 #intro img{
     grid-column: 2;
@@ -75,3 +87,36 @@ p, #navbar a {
 #projects{
 
 }
+
+/* skills */
+#skills-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#skills-section h1{
+    grid-column: 1 / span 3; 
+    text-align: center;  
+}
+
+#languages h2, #tools h2, #skills h2{
+    text-align: center;
+}
+
+#languages ul, #tools ul, #skills ul{
+    list-style-type: none;
+}
+
+#languages
+{
+    grid-column: 1;
+}
+
+#tools{
+    grid-column: 2;
+}
+
+#skills{
+    grid-column: 3;
+}
+
