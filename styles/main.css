@@ -84,8 +84,45 @@ p, a, ul {
 }
 
 /* projects */
-#projects{
+#projects h1{
+    text-align: center;
+}
 
+#audiovis{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#audio-vis-gif {
+    height: 5em;
+    grid-column: 1;
+}
+#audio-vis-text {
+    grid-column: 2;
+    text-align: justify;
+} 
+
+/* #switch img{
+    height: 5em;
+    grid-row: 2;
+    grid-column: 1;
+} */
+
+#switch{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+#cat-cafe{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#personal {
+    grid-row: 4;
+    grid-column: 2;
 }
 
 /* skills */
