@@ -31,12 +31,6 @@ p, a, ul {
     box-shadow: 5px 5px 10px 2px rgba(103, 18, 46, 0.2);
 }
 
-/* intro */
-#intro{
-    padding-left: 5em;
-    padding-right: 5em;
-}
-
 /* navbar */
 #navbar {
     background-color: #dddddd;
@@ -44,22 +38,22 @@ p, a, ul {
     top: 0;
     width: 100%;
     left: 0;
+    color:#402e2a;
 }
 #navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 #navbar li a:hover {
-    background-color: #111;
+    background-color: #d8cace;
 }
 #navbar li a {
     /* display: inline;
     float: left; */
     display: block;
-    color: white;
+    color:#402e2a;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -72,20 +66,43 @@ p, a, ul {
     margin-top: 7em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 5em;
+    padding-right: 5em;
+    animation: fadeInAnimation ease 2s;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 #intro h1{
     font-size: xx-large;
-    text-align: center;
-    grid-column: 1 / span 2;
+    text-align: right;
+    vertical-align: bottom;
+    grid-column: 1;
+    text-shadow: 2px 2px rgba(103, 18, 46, 0.2);
 }
 #intro p{
     grid-column: 1;
-    text-align: left;
+    text-align: right;
+    vertical-align: bottom;
     padding-right: 1em;
     font-size: x-large;
+    text-shadow: 2px 2px rgba(103, 18, 46, 0.2);
+}
+#intro img{
+    grid-column: 2;
+    max-width: 60%;
+    height: auto;
+    border-radius: 25px;
+    margin-top: 1em;
+    box-shadow: 5px 5px 10px 2px rgba(103, 18, 46, 0.2);
 }
 img{
-    grid-column: 2;
     max-width: 100%;
     height: auto;
 }
@@ -192,12 +209,24 @@ img{
 /* waiut */
 #waiut-content{
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: center;
+    flex-direction: row;
+}
+#waiut h2{
+    text-align: center;
+}
+#waiut p{
+    text-align: justify;
+}
+#graphics-engine{
+    padding-right: 2em;
 }
 
 /* contact */
+footer p{
+    text-align: center;
+    padding-left: 2em;
+    font-size: x-large;
+}
 #contact-info{
     display: flex;
     list-style-type: none;
