@@ -207,6 +207,11 @@ img{
 }
 
 /* waiut */
+#waiut img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #waiut-content{
     display: flex;
     flex-direction: row;
@@ -222,6 +227,9 @@ img{
 }
 #graphics-engine{
     padding-right: 2em;
+}
+#unreal-learning img{
+    max-height: 63%;
 }
 
 /* contact */
