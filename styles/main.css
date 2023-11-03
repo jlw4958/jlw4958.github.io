@@ -114,6 +114,12 @@ img{
 #projects ul{
     font-size: medium;
 }
+#projects a{
+    color:#402e2a;
+}
+#projects a:hover{
+    color: #a385a7;
+}
 
 #audiovis{
     display: grid;
