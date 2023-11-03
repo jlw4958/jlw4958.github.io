@@ -214,7 +214,10 @@ img{
 #waiut h2{
     text-align: center;
 }
-#waiut p{
+#waiut-desc {
+    text-align: center;
+}
+#waiut-content p{
     text-align: justify;
 }
 #graphics-engine{
