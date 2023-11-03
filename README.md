@@ -2,4 +2,8 @@
 
 Welcome to my portfolio!
 
-Currently a WIP, check back often for updates!
+Currently completed andavailable to view!
+
+Next steps:
+- responsiveness
+- slideshows/carousels
